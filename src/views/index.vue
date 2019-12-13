@@ -32,7 +32,7 @@
         <div class="header__title">
           <h1>
             Hi there! We are the new kids on the block
-            and we build awesome websites and mobile apps.
+            <br />and we build awesome websites and mobile apps.
           </h1>
 
           <button class="work">work with us!</button>
@@ -40,7 +40,46 @@
       </div>
     </div>
     <section class="services">
-      <h2>services we provede</h2>
+      <div class="container">
+        <h2>services we provede</h2>
+        <p>
+          We are working with both individuals and businesses from all over the globe
+          <br />to create awesome websites and applications.
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="services__iteam">
+              <img src="../assets/flag.png" alt class="services__img" />
+              <h3>Branding</h3>
+              <p>
+                Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit, sed diam nonummy nibh.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="services__iteam">
+              <img src="../assets/pain.png" alt class="services__img" />
+              <h3>Design</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="services__iteam">
+              <img src="../assets/settings.png" alt class="services__img" />
+              <h3>Development</h3>
+              <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="services__iteam">
+              <img src="../assets/rocket.png" alt class="services__img" />
+              <h3>roket science</h3>
+              <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -54,6 +93,54 @@ export default {};
   font-size: 42px;
   font-weight: 700;
   line-height: 48.82px;
+}
+.services {
+  color: #fff;
+  padding: 120px 0px;
+}
+.services h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.services h2::after {
+  content: "";
+  display: block;
+  margin: 15px auto;
+  width: 87px;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.155);
+}
+.services__img {
+  display: block;
+  margin: auto;
+}
+.services p {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 80px;
+}
+
+.services__iteam h3,
+.services__iteam p {
+  text-align: center;
+}
+.services__iteam h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding-top: 60px;
+}
+.services__iteam {
+  padding: 0px 15px;
+}
+.services__iteam p {
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0.32px;
 }
 .work {
   margin-top: 60px;
@@ -103,5 +190,9 @@ export default {};
 }
 .menu {
   padding-top: 60px;
+}
+.services {
+  // height: 747px;
+  background-color: #17c2a4;
 }
 </style>
