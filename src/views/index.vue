@@ -81,12 +81,223 @@
         </div>
       </div>
     </section>
+    <section class="team">
+      <div class="container">
+        <div class="beautiful_team">
+          <h2>MEET OUR BEAUTIFUL TEAM</h2>
+          <p>We are a small team of designers and developers, who help brands with big ideas.</p>
+          <div class="team_all">
+            <div class="row">
+              <div class="col">
+                <div class="team__iteam">
+                  <img src="../assets/Base.png" alt class="team__img" />
+                  <div class="team__name">Anne hathaway</div>
+                  <div class="team__work">CEO / Marketing Guru</div>
+                  <p class="team__info">
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                  </p>
+                  <div class="social">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Facebook_Icon.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Twitter.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Mail.png" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="team__iteam">
+                  <img src="../assets/Base.png" alt class="team__img" />
+                  <div class="team__name">Kate Upton</div>
+                  <div class="team__work">Creative Director</div>
+                  <p
+                    class="team__info"
+                  >Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+
+                  <div class="social">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Facebook_Icon.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Twitter.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Mail.png" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="team__iteam">
+                  <img src="../assets/Base.png" alt class="team__img" />
+                  <div class="team__name">Olivia Wilde</div>
+                  <div class="team__work">Lead Designer</div>
+                  <p
+                    class="team__info"
+                  >Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                  <div class="social">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Facebook_Icon.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Twitter.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Mail.png" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="team__iteam">
+                  <img src="../assets/Base.png" alt class="team__img" />
+                  <div class="team__name">Ashley Greene</div>
+                  <div class="team__work">SEO / Developer</div>
+                  <p
+                    class="team__info"
+                  >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  <div class="social">
+                    <div class="row d-flex justify-content-center">
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Facebook_Icon.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Twitter.png" alt />
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="social__iteam">
+                          <img src="../assets/Mail.png" alt />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 <script>
 export default {};
 </script>
 <style lang="scss" scoped>
+.team {
+  width: 100%;
+  height: 940px;
+  background-color: #e7f1f8;
+}
+.beautiful_team {
+  padding: 120px 0px;
+  h2 {
+    color: #3c4761;
+    font-size: 41px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30.87px;
+    letter-spacing: 4px;
+    text-align: center;
+  }
+  h2::after {
+    content: "";
+    display: block;
+    margin: 20px auto;
+    width: 87px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.155);
+  }
+  p {
+    font-size: 19px;
+    line-height: 26.84px;
+    font-weight: 400;
+    text-align: center;
+    color: #3c4761;
+    padding-bottom: 50px;
+  }
+  .team__img {
+    padding-bottom: 40px;
+  }
+  .team__name {
+    text-transform: uppercase;
+    color: #27283d;
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .team__work {
+    color: #30bae7;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+  .team__info {
+    color: #3c4761;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    padding: 0px 0px 15px;
+  }
+}
+.social__iteam {
+  background-color: #bdd1df;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.team__iteam {
+  padding: 0px 20px;
+}
 .header__title h1 {
   color: #f7f3ea;
   font-family: "Titillium Web";
