@@ -43,7 +43,8 @@
       <div class="container">
         <h2>services we provede</h2>
         <p>
-          We are working with both individuals and businesses from all over the globe
+          We are working with both individuals and businesses from all over the
+          globe
           <br />to create awesome websites and applications.
         </p>
         <div class="row">
@@ -52,8 +53,8 @@
               <img src="../assets/flag.png" alt class="services__img" />
               <h3>Branding</h3>
               <p>
-                Lorem ipsum dolor sit amet,
-                consectetuer adipiscing elit, sed diam nonummy nibh.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh.
               </p>
             </div>
           </div>
@@ -61,21 +62,29 @@
             <div class="services__iteam">
               <img src="../assets/pain.png" alt class="services__img" />
               <h3>Design</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              </p>
             </div>
           </div>
           <div class="col">
             <div class="services__iteam">
               <img src="../assets/settings.png" alt class="services__img" />
               <h3>Development</h3>
-              <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+              <p>
+                At vero eos et accusamus et iusto odio dignissimos qui
+                blanditiis praesentium.
+              </p>
             </div>
           </div>
           <div class="col">
             <div class="services__iteam">
               <img src="../assets/rocket.png" alt class="services__img" />
               <h3>roket science</h3>
-              <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+              <p>
+                Et harum quidem rerum est et expedita distinctio. Nam libero
+                tempore.
+              </p>
             </div>
           </div>
         </div>
@@ -85,7 +94,10 @@
       <div class="container">
         <div class="beautiful_team">
           <h2>MEET OUR BEAUTIFUL TEAM</h2>
-          <p>We are a small team of designers and developers, who help brands with big ideas.</p>
+          <p>
+            We are a small team of designers and developers, who help brands
+            with big ideas.
+          </p>
           <div class="team_all">
             <div class="row">
               <div class="col">
@@ -94,8 +106,9 @@
                   <div class="team__name">Anne hathaway</div>
                   <div class="team__work">CEO / Marketing Guru</div>
                   <p class="team__info">
-                    Lorem ipsum dolor sit amet,
-                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                    magna.
                   </p>
                   <div class="social">
                     <div class="row d-flex justify-content-center">
@@ -125,9 +138,11 @@
                   <img src="../assets/Base.png" alt class="team__img" />
                   <div class="team__name">Kate Upton</div>
                   <div class="team__work">Creative Director</div>
-                  <p
-                    class="team__info"
-                  >Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+                  <p class="team__info">
+                    Duis aute irure dolor in in voluptate velit esse cillum
+                    dolore fugiat nulla pariatur. Excepteur sint occaecat non
+                    diam proident.
+                  </p>
 
                   <div class="social">
                     <div class="row d-flex justify-content-center">
@@ -157,9 +172,11 @@
                   <img src="../assets/Base.png" alt class="team__img" />
                   <div class="team__name">Olivia Wilde</div>
                   <div class="team__work">Lead Designer</div>
-                  <p
-                    class="team__info"
-                  >Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+                  <p class="team__info">
+                    Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem nesciunt.
+                  </p>
                   <div class="social">
                     <div class="row d-flex justify-content-center">
                       <div class="col">
@@ -188,9 +205,11 @@
                   <img src="../assets/Base.png" alt class="team__img" />
                   <div class="team__name">Ashley Greene</div>
                   <div class="team__work">SEO / Developer</div>
-                  <p
-                    class="team__info"
-                  >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                  <p class="team__info">
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam.
+                  </p>
                   <div class="social">
                     <div class="row d-flex justify-content-center">
                       <div class="col">
@@ -219,10 +238,97 @@
         </div>
       </div>
     </section>
+    <section class="skills">
+      <div class="container">
+        <div class="skill__contant">
+          <h2>WE GOT SKILLS!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod <br />
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="progress_skills">
+          <div class="row">
+            <div class="col">
+              <div class="progress__iteam">
+                <Progress
+                  strokeColor="#30bae7"
+                  :transitionDuration="2000"
+                  :radius="50"
+                  :strokeWidth="10"
+                  value="90"
+                >
+                  <template v-slot:footer>
+                    <div class="progress__footer">
+                      <b>Web Design</b>
+                    </div>
+                  </template>
+                </Progress>
+              </div>
+            </div>
+            <div class="col">
+              <div class="progress__iteam">
+                <Progress
+                  strokeColor="#d74680"
+                  :transitionDuration="2000"
+                  :radius="50"
+                  :strokeWidth="10"
+                  value="75"
+                >
+                  <template v-slot:footer>
+                    <div class="progress__footer">
+                      <b>HTML / CSS</b>
+                    </div>
+                  </template>
+                </Progress>
+              </div>
+            </div>
+            <div class="col">
+              <div class="progress__iteam">
+                <Progress
+                  strokeColor="#15c7a8"
+                  :transitionDuration="2000"
+                  :radius="50"
+                  :strokeWidth="10"
+                  value="70"
+                >
+                  <template v-slot:footer>
+                    <div class="progress__footer">
+                      <b>GRAPHIC DESIGN</b>
+                    </div>
+                  </template>
+                </Progress>
+              </div>
+            </div>
+            <div class="col">
+              <div class="progress__iteam">
+                <Progress
+                  strokeColor="#eb7d4b"
+                  :transitionDuration="2000"
+                  :radius="50"
+                  :strokeWidth="10"
+                  value="85"
+                >
+                  <template v-slot:footer>
+                    <div class="progress__footer">
+                      <b>UI / UX</b>
+                    </div>
+                  </template>
+                </Progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 <script>
-export default {};
+import Progress from "easy-circular-progress/src/index";
+export default {
+  components: { Progress }
+};
 </script>
 <style lang="scss" scoped>
 .team {
@@ -405,5 +511,53 @@ export default {};
 .services {
   // height: 747px;
   background-color: #17c2a4;
+}
+.skills {
+  width: 100%;
+  height: 650px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill__contant {
+  h2 {
+    font-size: 40px;
+    color: #3c4761;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  p {
+    color: #3c4761;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.36px;
+    text-align: center;
+  }
+  h2::after {
+    content: "";
+    display: block;
+    margin: 20px auto;
+    width: 87px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.155);
+  }
+}
+.progress_skills {
+  margin-top: 80px;
+}
+.progress__iteam {
+  display: flex;
+  justify-content: center;
+}
+.progress__footer {
+  padding-top: 30px;
+  text-align: center;
+  b {
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
 </style>
