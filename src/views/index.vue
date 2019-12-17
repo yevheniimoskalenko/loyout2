@@ -378,6 +378,82 @@
         </div>
       </div>
     </section>
+    <section class="people">
+      <div class="container">
+        <div class="people__content">
+          <h2>WHAT POEPLE SAY ABOUT US</h2>
+          <p>Our clients love us!</p>
+        </div>
+        <div class="people__comment">
+          <div class="row">
+            <div class="col-6">
+              <div class="comment">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="../assets/Base.png" alt />
+                  </div>
+                  <div class="col">
+                    <div class="comment__content">
+                      <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                      <div class="names__people">Chanel Iman</div>
+                      <div class="work__people">CEO of Pinterest</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="comment">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="../assets/Base.png" alt />
+                  </div>
+                  <div class="col">
+                    <div class="comment__content">
+                      <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                      <div class="names__people">Chanel Iman</div>
+                      <div class="work__people">CEO of Pinterest</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="comment mt-5">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="../assets/Base.png" alt />
+                  </div>
+                  <div class="col">
+                    <div class="comment__content">
+                      <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                      <div class="names__people">Chanel Iman</div>
+                      <div class="work__people">CEO of Pinterest</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="comment mt-5">
+                <div class="row">
+                  <div class="col-3">
+                    <img src="../assets/Base.png" alt />
+                  </div>
+                  <div class="col">
+                    <div class="comment__content">
+                      <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+                      <div class="names__people">Chanel Iman</div>
+                      <div class="work__people">CEO of Pinterest</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 <script>
@@ -691,5 +767,65 @@ export default {
     text-align: center;
     margin: 30px;
   }
+}
+.people {
+  background-color: #d74680;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+  }
+  h2::after {
+    content: "";
+    display: block;
+    margin: 20px auto;
+    width: 87px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.155);
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+.comment {
+  img {
+    width: 96px;
+    height: 96px;
+    background-size: cover;
+    display: block;
+  }
+}
+.names__people {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.work__people {
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffdd99;
+}
+.comment__content p {
+  font-size: 21px;
+  font-style: italic;
+  line-height: 31px;
+  text-align: left;
+}
+.people__comment {
+  margin-top: 40px;
 }
 </style>
