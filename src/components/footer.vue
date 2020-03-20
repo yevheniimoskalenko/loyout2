@@ -11,6 +11,13 @@
   </section>
 </template>
 <style lang="scss" scoped>
+@media (max-width: 576px) {
+  .footer__link {
+    a {
+      font-size: 16px;
+    }
+  }
+}
 .footer {
   width: 100%;
   height: 112px;

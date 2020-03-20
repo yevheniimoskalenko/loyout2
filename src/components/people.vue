@@ -79,6 +79,14 @@
 
 <style lang="scss" scoped>
 // Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (max-width: 576px) {
+  .comment {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
 @media (min-width: 576px) {
   .comment__content {
     p {
@@ -168,7 +176,8 @@
 .people {
   background-color: #d74680;
   width: 100%;
-  height: 900px;
+  // height: 900px;
+  padding: 120px 0;
   display: flex;
   justify-content: center;
 }

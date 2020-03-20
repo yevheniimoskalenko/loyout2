@@ -58,6 +58,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 // Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (max-width: 576px) {
+  .header__title {
+    padding: 80px 0px 0px 0px;
+  }
+}
 @media (min-width: 576px) {
   .header__title {
     padding: 80px 0px 0px 0px;

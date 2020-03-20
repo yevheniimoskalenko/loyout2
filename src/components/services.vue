@@ -8,7 +8,7 @@
         <br />to create awesome websites and applications.
       </p>
       <div class="row">
-        <div class="col col-md-6 col-lg">
+        <div class="col-6 col-md-6 col-lg">
           <div class="services__iteam">
             <div class="services__block">
               <img src="../assets/flag.png" alt class="services__img" />
@@ -20,7 +20,7 @@
             </p>
           </div>
         </div>
-        <div class="col col-md-6 col-lg">
+        <div class="col-6 col-md-6 col-lg">
           <div class="services__iteam">
             <div class="services__block">
               <img src="../assets/pain.png" alt class="services__img" />
@@ -29,7 +29,7 @@
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
           </div>
         </div>
-        <div class="col col-md-6 col-lg">
+        <div class="col-6 col-md-6 col-lg">
           <div class="services__iteam">
             <div class="services__block">
               <img src="../assets/settings.png" alt class="services__img" />
@@ -42,7 +42,7 @@
           </div>
         </div>
         <div class="w100 d-lg-none .d-xl-block"></div>
-        <div class="col col-md-6 col-lg">
+        <div class="col-6 col-md-6 col-lg">
           <div class="services__iteam">
             <div class="services__block">
               <img src="../assets/rocket.png" alt class="services__img" />

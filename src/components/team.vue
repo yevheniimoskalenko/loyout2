@@ -9,7 +9,7 @@
         </p>
         <div class="team_all">
           <div class="row">
-            <div class="col col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
+            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
               <div class="team__iteam d-flex flex-column">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Anne hathaway</div>
@@ -50,7 +50,7 @@
                 </div>
               </div>
             </div>
-            <div class="col col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
+            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
               <div class="team__iteam d-flex flex-column">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Kate Upton</div>
@@ -91,9 +91,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl d-sm-none d-md-none d-lg-block"
-            >
+            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
               <div class="team__iteam d-flex flex-column team__iteam-footer">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Olivia Wilde</div>
@@ -134,9 +132,7 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl d-sm-none d-lg-block d-md-none"
-            >
+            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
               <div class="team__iteam team__iteam-footer d-flex flex-column">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Ashley Greene</div>
@@ -184,6 +180,25 @@
   </section>
 </template>
 <style lang="scss" scoped>
+@media (max-width: 576px) {
+  .beautiful_team {
+    p {
+      padding-bottom: 0px;
+    }
+  }
+  .team__iteam img {
+    width: 100%;
+  }
+  .team__iteam-footer {
+    margin-top: 0px;
+  }
+  .team__content {
+    height: 100px;
+  }
+  .team__content {
+    height: 150px;
+  }
+}
 // Малые девайсы («ландшафтные телефоны», >= 576px)
 @media (min-width: 576px) {
   .beautiful_team {
@@ -196,6 +211,12 @@
   }
   .team__iteam-footer {
     margin-top: 0px;
+  }
+  .team__content {
+    height: 100px;
+  }
+  .team__content {
+    height: 150px;
   }
 }
 
@@ -211,6 +232,9 @@
   }
   .team__iteam-footer {
     margin-top: 0px;
+  }
+  .team__content {
+    height: 100px;
   }
 }
 
@@ -228,6 +252,9 @@
   .team__iteam-footer {
     margin-top: 40px;
   }
+  .team__content {
+    height: 100px;
+  }
 }
 
 // Экстрабольшие девайсы (большие десктопы, >= 1200px)
@@ -243,6 +270,9 @@
   .team__iteam-footer {
     margin-top: 0px;
   }
+  .team__content {
+    height: 150px;
+  }
 }
 .team {
   width: 100%;
@@ -254,7 +284,6 @@
 }
 .team__content {
   display: block;
-  height: 100px;
   overflow: hidden;
 }
 .beautiful_team {

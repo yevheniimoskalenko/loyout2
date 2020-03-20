@@ -59,6 +59,15 @@
   </section>
 </template>
 <style lang="scss" scoped>
+@media (max-width: 576px) {
+  .project__item img {
+    width: 90%;
+    background-size: cover;
+  }
+  .portfolio {
+    height: 1050px;
+  }
+}
 // Малые девайсы («ландшафтные телефоны», >= 576px)
 @media (min-width: 576px) {
   .project__item img {

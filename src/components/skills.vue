@@ -11,7 +11,7 @@
       </div>
       <div class="progress_skills">
         <div class="row">
-          <div class="col col-sm-6 col-md-6 col-lg-6 col-xl">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl">
             <div class="progress__iteam">
               <Progress
                 strokeColor="#30bae7"
@@ -28,7 +28,7 @@
               </Progress>
             </div>
           </div>
-          <div class="col col-sm-6 col-md-6 col-lg-6 col-xl">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl">
             <div class="progress__iteam">
               <Progress
                 strokeColor="#d74680"
@@ -45,7 +45,7 @@
               </Progress>
             </div>
           </div>
-          <div class="col col-sm-6 col-md-6 col-lg-6 col-xl">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl">
             <div class="progress__iteam">
               <Progress
                 strokeColor="#15c7a8"
@@ -62,7 +62,7 @@
               </Progress>
             </div>
           </div>
-          <div class="col col-sm-6 col-md-6 col-lg-6 col-xl">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl">
             <div class="progress__iteam">
               <Progress
                 strokeColor="#eb7d4b"
