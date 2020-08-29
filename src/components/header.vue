@@ -30,16 +30,12 @@
           </div>
         </div>
       </div>
-      <div class="row header__title d-flex flex-column align-items-center">
-        <div class="col">
-          <h1 class="text-center">
-            Hi there! We are the new kids on the block
-            <br />and we build awesome websites and mobile apps.
-          </h1>
-        </div>
-        <div class="col d-flex justify-content-center">
-          <button class="work">work with us!</button>
-        </div>
+      <div class="header__title d-flex flex-column align-items-center">
+        <h1 class="text-center">
+          Hi there! We are the new kids on the block
+          <br />and we build awesome websites and mobile apps.
+        </h1>
+        <button class="work">work with us!</button>
       </div>
     </div>
   </div>
@@ -48,12 +44,12 @@
 import $ from "jquery";
 export default {
   ready() {
-    $(document).ready(function($) {
+    $(document).ready(function ($) {
       $("#navbarNavAltMarkup").collapse({
-        toggle: false
+        toggle: false,
       });
     });
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -61,6 +57,13 @@ export default {
 @media (max-width: 576px) {
   .header__title {
     padding: 80px 0px 0px 0px;
+    h1 {
+      font-size: 28px;
+    }
+  }
+  .work {
+    margin-top: 30px;
+    padding: 20px 50px;
   }
 }
 @media (min-width: 576px) {
@@ -68,7 +71,7 @@ export default {
     padding: 80px 0px 0px 0px;
   }
   .header__title h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
 
@@ -114,8 +117,7 @@ export default {
 // .header__title {
 //   text-align: center;
 // }
-.header__title h1 {
-}
+
 .logo {
   width: 100px;
 }

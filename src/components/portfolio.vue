@@ -8,20 +8,10 @@
           <br />consectetur, adipisci velit, sed quia non numquam
         </p>
         <div class="link__portfolio">
-          <div class="row">
-            <div class="col">
-              <button class="btn btn-light actived">all</button>
-            </div>
-            <div class="col">
-              <button class="btn btn-light">web</button>
-            </div>
-            <div class="col">
-              <button class="btn btn-light">apps</button>
-            </div>
-            <div class="col">
-              <button class="btn btn-light">icons</button>
-            </div>
-          </div>
+          <button class="btn btn-light actived">all</button>
+          <button class="btn btn-light">web</button>
+          <button class="btn btn-light">apps</button>
+          <button class="btn btn-light">icons</button>
         </div>
         <div class="project__portfolio">
           <div class="row">
@@ -65,7 +55,7 @@
     background-size: cover;
   }
   .portfolio {
-    height: 1050px;
+    padding: 120px 0;
   }
 }
 // Малые девайсы («ландшафтные телефоны», >= 576px)
@@ -75,7 +65,7 @@
     background-size: cover;
   }
   .portfolio {
-    height: 1050px;
+    padding: 120px 0;
   }
 }
 
@@ -86,7 +76,7 @@
     background-size: cover;
   }
   .portfolio {
-    height: 1400px;
+    padding: 120px 0;
   }
 }
 
@@ -97,7 +87,7 @@
     background-size: cover;
   }
   .portfolio {
-    height: 1400px;
+    padding: 120px 0;
   }
 }
 
@@ -108,7 +98,7 @@
     background-size: cover;
   }
   .portfolio {
-    height: 1400px;
+    padding: 120px 0;
   }
 }
 .actived {
@@ -146,6 +136,9 @@
   .link__portfolio {
     display: flex;
     justify-content: center;
+    .btn {
+      margin: 10px;
+    }
   }
 }
 .btn-light {

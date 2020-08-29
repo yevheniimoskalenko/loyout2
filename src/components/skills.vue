@@ -2,12 +2,14 @@
   <section class="skills">
     <div class="container">
       <div class="skill__contant">
-        <h2>WE GOT SKILLS!</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod
-          <br />tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <div class="title">
+          <h2>WE GOT SKILLS!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod
+            <br />tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
       </div>
       <div class="progress_skills">
         <div class="row">
@@ -87,28 +89,33 @@
 <script>
 import Progress from "easy-circular-progress/src/index";
 export default {
-  components: { Progress }
+  components: { Progress },
 };
 </script>
 <style lang="scss" scoped>
 // Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (max-width: 576px) {
+  .skills {
+    padding: 120px 0;
+  }
+}
 @media (min-width: 576px) {
   .skills {
-    height: 800px;
+    padding: 120px 0;
   }
 }
 
 // Средние девайсы («таблетки», >= 768px)
 @media (min-width: 768px) {
   .skills {
-    height: 800px;
+    padding: 120px 0;
   }
 }
 
 // Большие девайсы (десктопы, >= 992px)
 @media (min-width: 992px) {
   .skills {
-    height: 800px;
+    padding: 120px 0;
   }
 }
 

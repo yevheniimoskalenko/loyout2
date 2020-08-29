@@ -9,8 +9,8 @@
         </p>
         <div class="team_all">
           <div class="row">
-            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
-              <div class="team__iteam d-flex flex-column">
+            <div class="col-12 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <div class="team__iteam">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Anne hathaway</div>
                 <div class="team__work">CEO / Marketing Guru</div>
@@ -22,36 +22,28 @@
                   </p>
                 </div>
                 <div class="social">
-                  <div class="row d-flex justify-content-center">
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#facebook">
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="social__iteam">
+                    <a href="#facebook">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
 
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#twitter">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="social__iteam">
+                    <a href="#twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
 
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#instagram">
-                          <i class="fab fa-instagram"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="social__iteam">
+                    <a href="#instagram">
+                      <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
-              <div class="team__iteam d-flex flex-column">
+            <div class="col-12 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <div class="team__iteam">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Kate Upton</div>
                 <div class="team__work">Creative Director</div>
@@ -63,36 +55,27 @@
                   </p>
                 </div>
                 <div class="social">
-                  <div class="row d-flex justify-content-center">
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#facebook">
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="social__iteam">
+                    <a href="#facebook">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
 
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#twitter">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#instagram">
-                          <i class="fab fa-instagram"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="social__iteam">
+                    <a href="#twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="social__iteam">
+                    <a href="#instagram">
+                      <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
-              <div class="team__iteam d-flex flex-column team__iteam-footer">
+            <div class="col-12 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+              <div class="team__iteam team__iteam-footer">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Olivia Wilde</div>
                 <div class="team__work">Lead Designer</div>
@@ -105,34 +88,26 @@
                 </div>
                 <div class="social">
                   <div class="row d-flex justify-content-center">
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#facebook">
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                      </div>
+                    <div class="social__iteam">
+                      <a href="#facebook">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
                     </div>
-
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#twitter">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#instagram">
-                          <i class="fab fa-instagram"></i>
-                        </a>
-                      </div>
-                    </div>
+                  </div>
+                  <div class="social__iteam">
+                    <a href="#twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="social__iteam">
+                    <a href="#instagram">
+                      <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-6 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl">
+            <div class="col-12 col-xs-6 col-sm-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
               <div class="team__iteam team__iteam-footer d-flex flex-column">
                 <img src="../assets/pngfuel.com.png" alt class="team__img" />
                 <div class="team__name">Ashley Greene</div>
@@ -145,30 +120,20 @@
                   </p>
                 </div>
                 <div class="social">
-                  <div class="row d-flex justify-content-center">
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#facebook">
-                          <i class="fab fa-facebook-f"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#twitter">
-                          <i class="fab fa-twitter"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div class="col-3 col-md-2 col-lg-2 col-xl-2">
-                      <div class="social__iteam">
-                        <a href="#instagram">
-                          <i class="fab fa-instagram"></i>
-                        </a>
-                      </div>
-                    </div>
+                  <div class="social__iteam">
+                    <a href="#facebook">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </div>
+                  <div class="social__iteam">
+                    <a href="#twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="social__iteam">
+                    <a href="#instagram">
+                      <i class="fab fa-instagram"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -181,13 +146,19 @@
 </template>
 <style lang="scss" scoped>
 @media (max-width: 576px) {
+  .team__iteam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+  }
   .beautiful_team {
     p {
       padding-bottom: 0px;
     }
   }
-  .team__iteam img {
-    width: 100%;
+  .team__img {
+    width: 60%;
   }
   .team__iteam-footer {
     margin-top: 0px;
@@ -265,7 +236,7 @@
     }
   }
   .team__iteam img {
-    width: 100%;
+    width: 80%;
   }
   .team__iteam-footer {
     margin-top: 0px;
@@ -341,6 +312,12 @@
     padding: 0px 0px 15px;
   }
 }
+.social {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
 .social__iteam {
   background-color: #bdd1df;
   width: 32px;
@@ -349,14 +326,18 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin: auto;
+  margin: auto 10px;
 }
 .team__iteam {
   padding: 0px 20px;
-}
-.team__iteam img {
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    background-size: cover;
 
-  border-radius: 50%;
+    border-radius: 50%;
+  }
 }
 </style>

@@ -7,7 +7,7 @@
       </div>
       <div class="people__comment">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
             <div class="comment">
               <div class="row">
                 <div class="col-3">
@@ -23,7 +23,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
             <div class="comment">
               <div class="row">
                 <div class="col-3">
@@ -39,8 +39,8 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="comment mt">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="comment">
               <div class="row">
                 <div class="col-3">
                   <img src="../assets/Base.png" alt class="avatar" />
@@ -55,8 +55,8 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="comment mt">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="comment">
               <div class="row">
                 <div class="col-3">
                   <img src="../assets/Base.png" alt class="avatar" />
